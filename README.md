@@ -16,6 +16,10 @@ The format will be:
 
 Given the CRC1588 focus on neuroblastoma, we will mostly work on a large bulk RNA-seq cohort of diverse pediatric cancer samples from the St. [Jude Children's hospital](https://www.stjude.cloud/) [(publication)](https://dx.doi.org/10.1158/2159-8290.CD-20-1230). In total, this dataset comprises > 5,000 samples across many different cancers, including many neuroblastoma samples. We will use the `scanpy`/`anndata` framework to store the RNA-seq data in one rich [`adata`](https://anndata.readthedocs.io/en/latest/index.html) object. Some background on RNA-seq and its various versions, and a few statistical and normalization aspects will be presented/discussed. Basic pre-processing and some exploratory data analysis will be performed, before we proceed to more advanced analyses such as identification of marker genes, enriched gene sets, scoring of known cell-identity transcriptional programs and inference of transcription factor activity using `scanpy` or `decoupler` methods. We will learn that the `adata` object is an extremely useful abstraction that can be re-used for different purposes than just holding cell x gene count matrices. Once we feel firmly in control, we will also peek into the *Atliki* (Aliki's curated collection of high quality Neuroblastoma single cell data).
 
+<img src="https://anndata.readthedocs.io/en/stable/_static/anndata_schema.svg" alt="https://anndata.readthedocs.io/en/stable/#" width="200"/>
+<img src="https://www.stjude.cloud/static/STJCloud_Logo_White_NoTagline-b38a71b1da2c300f3cdee806d1cf7753.png" alt="[https://anndata.readthedocs.io/en/stable/#](https://www.stjude.cloud/)" width="200"/>
+
+
 ## Preparation
 
 All participants are asked to please make a best effort to set up a working compute environment before the workshop begins. Normally this includes:
